@@ -1,0 +1,39 @@
+body{
+    background-color: cadetblue;
+}
+
+.main-content{
+    position: relative;
+    margin-top: 5em;
+    left: 25vw;
+    right: 25vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: azure;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-bottom: -1em;
+}
+
+.account-main-info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: aqua;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.account-main-info img{
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 100%;
+}
+
+.account-name {
+    position: relative;
+    top: 1em;
+    text-align: center;
+}
