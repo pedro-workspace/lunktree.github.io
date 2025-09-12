@@ -4,15 +4,18 @@ body{
 
 .main-content{
     position: relative;
+    display: block;
     margin-top: 5em;
     left: 25vw;
     right: 25vw;
     width: 50vw;
-    height: 100vh;
+    min-height:fit-content;
     background-color: azure;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     margin-bottom: -1em;
+    padding-bottom: 10em;
+    box-shadow: 0em 0em 0.4em 0.04em rgba(0, 0, 0, 0.5);
 }
 
 .account-main-info{
@@ -25,15 +28,68 @@ body{
 
 .account-main-info img{
     background-color: aliceblue;
+    position: relative;
+    top: 1.5em;
     width: 120px;
     height: 120px;
-    justify-content: center;
-    align-self: center;
+    justify-self: center;
     border-radius: 100%;
+    margin-top: 1.5em;
+    margin-bottom: -0.8em;
 }
 
 .account-name {
     position: relative;
-    top: 1em;
+    top: 2.7em;
+    text-align: center;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+.link-container{
+    position: relative;
+    display: grid;
+    gap: 1em;
+    top: 2em;
+    min-height: 2em;
+    align-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+    padding-left: 2em;
+    border-radius: 2em;
+}
+
+.social-media {
+    position: relative;
+    left: -1em;
+    background-color: bisque;
+    width: 35vw;
+}
+
+.social-media{
+    display: grid;
+    height: 7em;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    padding-bottom: 2em;
+    border-radius: 1em;
+}
+
+.social-media img{
+    position: relative;
+    width: 100px;
+    left: 0em;
+}
+
+.social-media a{
+    position: relative;
+    display: table;
+    justify-items: center;
+    align-items:center;
+    text-decoration:none;
+    font-size: larger;
     text-align: center;
 }
