@@ -40,11 +40,18 @@ body{
 
 .account-name {
     position: relative;
-    top: 2.7em;
+    top: 2.8em;
     text-align: center;
     font-size: large;
     font-family:'Courier New', Courier, monospace;
     font-style: normal;
+    color: rgb(63, 31, 82);
+    word-spacing: -0.32em;
+}
+
+.account-name span:hover{
+    color:rgb(46, 47, 114);
+    cursor:pointer;
 }
 
 .link-container{
