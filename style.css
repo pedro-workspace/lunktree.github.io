@@ -45,12 +45,12 @@ body{
     font-size: large;
     font-family:'Courier New', Courier, monospace;
     font-style: normal;
-    color: rgb(63, 31, 82);
+    color: rgb(31, 7, 87);
     word-spacing: -0.39em;
 }
 
 .account-name span:hover{
-    color:rgb(153, 0, 255);
+    color:rgb(76, 3, 124);
     cursor:pointer;
 }
 
