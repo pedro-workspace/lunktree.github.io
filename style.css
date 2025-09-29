@@ -1,5 +1,5 @@
 body{
-    background-color: cadetblue;
+    background-color: rgb(153, 103, 194);
 }
 
 .main-content{
@@ -21,7 +21,7 @@ body{
 .account-main-info{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: aqua;
+    background-color: rgb(0, 162, 255);
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
@@ -46,11 +46,11 @@ body{
     font-family:'Courier New', Courier, monospace;
     font-style: normal;
     color: rgb(63, 31, 82);
-    word-spacing: -0.32em;
+    word-spacing: -0.39em;
 }
 
 .account-name span:hover{
-    color:rgb(46, 47, 114);
+    color:rgb(153, 0, 255);
     cursor:pointer;
 }
 
