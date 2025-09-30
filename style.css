@@ -51,8 +51,9 @@ body{
 }
 
 .account-name span:hover{
-    color:rgb(76, 3, 124);
+    color:rgb(0, 0, 0);
     cursor:pointer;
+    text-shadow: .05em 0.05em rgb(197, 15, 15);
 }
 
 .link-container{
