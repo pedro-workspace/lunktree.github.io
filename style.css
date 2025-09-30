@@ -45,8 +45,9 @@ body{
     font-size: large;
     font-family:'Courier New', Courier, monospace;
     font-style: normal;
-    color: rgb(31, 7, 87);
+    color: rgb(255, 255, 255);
     word-spacing: -0.39em;
+    text-shadow: .05em 0.05em black;
 }
 
 .account-name span:hover{
@@ -101,4 +102,5 @@ body{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color: rgb(76, 9, 116);
+    text-shadow: -.03em 0.03em 0.03em black;
 }
