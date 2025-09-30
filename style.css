@@ -48,6 +48,14 @@ body{
     color: rgb(255, 255, 255);
     word-spacing: -0.39em;
     text-shadow: .05em 0.05em black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+@media (max-width:500px){
+    .account-name{
+        top: 2.46em;
+    }
 }
 
 .account-name span:hover{
